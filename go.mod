@@ -1,4 +1,4 @@
-module ginXm
+module github.com/OnlyJackShow/ginXm
 
 go 1.15
 
