@@ -5,8 +5,9 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func SystemInit() {
+func SystemInit() * gin.Engine {
 	r := gin.Default()
 	router.SystemRouter(r)
-	r.Run(":8088")
+	//r.Run(":8088")
+	return 
 }
